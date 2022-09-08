@@ -11,7 +11,7 @@ import Container from "@mui/material/Container";
 const Form = () => {
   return (
     <div className="Login-form-main">
-      <Container component="main" maxWidth="xs">
+      <Container className="Login-form-submain" component="main" maxWidth="xs">
         <Box
           className="Login-box_main"
           sx={{
@@ -20,6 +20,7 @@ const Form = () => {
             alignItems: "center",
             height: "5rem",
             width: "25rem",
+            paddingLeft: "0 !important",
           }}
         >
           <Typography component="h1" variant="h5">
